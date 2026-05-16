@@ -1,0 +1,95 @@
+* {
+  scrollbar-color: #2563eb #f1f5f9;
+}
+
+Screen {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+#main_screen #title {
+  dock: top;
+  height: 1;
+  background: #e2e8f0;
+  color: #1d4ed8;
+  text-style: bold;
+  padding: 0 1;
+}
+
+#body {
+  height: 1fr;
+}
+
+#left {
+  width: 52%;
+  border-right: outer #cbd5e1;
+  padding: 0 1;
+}
+
+#right_scroll {
+  width: 1fr;
+  padding: 0 1;
+}
+
+#right_panel {
+  width: 1fr;
+  height: auto;
+}
+
+.section-title {
+  margin-top: 1;
+  margin-bottom: 0;
+  color: #7c3aed;
+  text-style: bold;
+}
+
+#bloat_heading .accent {
+  color: #7c3aed;
+}
+
+#bloat_heading .bloat {
+  color: #0d9488;
+  text-style: bold;
+}
+
+#bloat_bar {
+  margin-bottom: 1;
+  height: 1;
+  tint: #0d9488;
+}
+
+DataTable {
+  height: auto;
+  max-height: 12;
+  border: outer #cbd5e1;
+  background: #f8fafc;
+}
+
+DataTable > .datatable--header {
+  background: #e2e8f0;
+  color: #1d4ed8;
+  text-style: bold;
+}
+
+Tree {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+Tree > .tree--guides {
+  color: #cbd5e1;
+}
+
+Tree > .tree--cursor {
+  background: #dbeafe;
+}
+
+Footer {
+  background: #e2e8f0;
+  color: #64748b;
+}
+
+Footer > .footer--key {
+  background: #cbd5e1;
+  color: #1d4ed8;
+}

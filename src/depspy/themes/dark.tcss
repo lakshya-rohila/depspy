@@ -1,0 +1,107 @@
+* {
+  scrollbar-color: #00d9a3 #13161f;
+}
+
+Screen {
+  background: #0d0f14;
+  color: #c8d3e8;
+}
+
+#main_screen #title {
+  dock: top;
+  height: 1;
+  background: #13161f;
+  color: #00d9a3;
+  text-style: bold;
+  padding: 0 1;
+}
+
+#body {
+  height: 1fr;
+}
+
+#left {
+  width: 52%;
+  border-right: outer #1e2433;
+  padding: 0 1;
+}
+
+#right_scroll {
+  width: 1fr;
+  padding: 0 1;
+}
+
+#right_panel {
+  width: 1fr;
+  height: auto;
+}
+
+.section-title {
+  margin-top: 1;
+  margin-bottom: 0;
+  padding: 0 0;
+  color: #7b61ff;
+  text-style: bold;
+}
+
+#bloat_heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+
+#bloat_heading .accent {
+  color: #7b61ff;
+}
+
+#bloat_heading .bloat {
+  color: #00d9a3;
+  text-style: bold;
+}
+
+#bloat_bar {
+  margin-top: 0;
+  margin-bottom: 1;
+  height: 1;
+  tint: #00d9a3;
+}
+
+DataTable {
+  height: auto;
+  max-height: 12;
+  border: outer #1e2433;
+  background: #0d0f14;
+}
+
+DataTable > .datatable--header {
+  background: #13161f;
+  color: #00d9a3;
+  text-style: bold;
+}
+
+DataTable:focus {
+  border: outer #1e2433;
+}
+
+Tree {
+  background: #0d0f14;
+  color: #c8d3e8;
+}
+
+Tree > .tree--guides {
+  color: #1e2433;
+}
+
+Tree > .tree--cursor {
+  background: #1e2433;
+}
+
+Footer {
+  background: #13161f;
+  color: #4a5568;
+}
+
+Footer > .footer--key {
+  background: #1e2433;
+  color: #00d9a3;
+}

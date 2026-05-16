@@ -1,0 +1,208 @@
+/* depspy — dark terminal UI only (no light theme). */
+
+Screen {
+  scrollbar-color: #00d9a3 #13161f;
+  background: #0d0f14;
+  color: #c8d3e8;
+}
+
+#main_screen #title,
+#detail_screen #detail_title {
+  dock: top;
+  height: 1;
+  text-style: bold;
+  padding: 0 1;
+  background: #13161f;
+  color: #00d9a3;
+}
+
+/* ─── Retro loading deck (phosphor / CRT) ─── */
+#loading_screen {
+  background: #020203;
+}
+
+#loading_body {
+  width: 1fr;
+  height: 1fr;
+  background: #020203;
+}
+
+#loading_center {
+  width: 1fr;
+  height: 1fr;
+}
+
+#loading_panel {
+  width: auto;
+  height: auto;
+  align-horizontal: center;
+  min-width: 0;
+  max-width: 100%;
+}
+
+#loading_anim,
+#loading_logo {
+  width: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+#loading_logo {
+  margin-bottom: 1;
+}
+
+.loading-anim {
+  height: 1;
+  min-height: 1;
+  margin-bottom: 0;
+  color: #3d4a63;
+}
+
+.loading-stage {
+  margin-top: 1;
+  margin-bottom: 1;
+  min-height: 1;
+  width: auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+#loading_screen Center {
+  width: 100%;
+  align-horizontal: center;
+}
+
+#loading_screen #loading_bar {
+  width: 62;
+  height: 1;
+  margin-left: 2;
+  margin-right: 2;
+  tint: #00ff9d;
+  background: #1a1d24;
+}
+
+.loading-sub {
+  margin-top: 1;
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+}
+
+.loading-hint {
+  margin-top: 2;
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+}
+
+#loading_screen Footer {
+  background: #0a0c10;
+  border-top: outer #1e2433;
+}
+
+#body {
+  height: 1fr;
+}
+
+#left {
+  width: 52%;
+  border-right: outer #1e2433;
+  padding: 0 1;
+}
+
+#dep_tree {
+  height: 1fr;
+  min-height: 6;
+  background: #0d0f14;
+  color: #c8d3e8;
+}
+
+#dep_tree > .tree--guides {
+  color: #1e2433;
+}
+
+#dep_tree > .tree--cursor {
+  background: #1e2433;
+}
+
+#tree_filter {
+  dock: bottom;
+  height: 1;
+  margin-top: 0;
+  background: #13161f;
+  color: #c8d3e8;
+  border: outer #1e2433;
+}
+
+#right_scroll {
+  width: 1fr;
+  padding: 0 1;
+}
+
+#right_panel {
+  width: 1fr;
+  height: auto;
+}
+
+.section-title {
+  margin-top: 1;
+  margin-bottom: 0;
+  text-style: bold;
+  color: #7b61ff;
+}
+
+#bloat_heading .accent {
+  color: #7b61ff;
+}
+
+#bloat_heading .bloat {
+  color: #00d9a3;
+  text-style: bold;
+}
+
+#bloat_bar {
+  margin-top: 0;
+  margin-bottom: 1;
+  height: 1;
+  tint: #00d9a3;
+}
+
+DataTable {
+  height: auto;
+  max-height: 12;
+  border: outer #1e2433;
+  background: #0d0f14;
+}
+
+DataTable > .datatable--header {
+  background: #13161f;
+  color: #00d9a3;
+  text-style: bold;
+}
+
+#detail_body {
+  height: 1fr;
+}
+
+#detail_left {
+  width: 1fr;
+  padding: 0 1;
+  color: #c8d3e8;
+}
+
+#detail_right {
+  width: 48%;
+  padding: 0 1;
+  border-left: outer #1e2433;
+}
+
+Footer {
+  dock: bottom;
+  background: #13161f;
+  color: #4a5568;
+}
+
+Footer > .footer--key {
+  background: #1e2433;
+  color: #00d9a3;
+}

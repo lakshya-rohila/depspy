@@ -1,0 +1,4172 @@
+{
+  "project": "depspy",
+  "analyzed_at": "2026-05-16T01:12:00.593417+00:00",
+  "python_version": "3.14.4",
+  "summary": {
+    "total_packages": 339,
+    "direct_deps": 11,
+    "total_size_bytes": 1222691832,
+    "vulnerability_count": 0,
+    "stale_count": 0,
+    "bloat_score": 50.6,
+    "bloat_rating": "MODERATE"
+  },
+  "packages": [
+    {
+      "name": "diskcache",
+      "version": "5.6.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 387402,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 0
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 704457,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "anyio",
+        "certifi",
+        "click",
+        "httpcore",
+        "idna",
+        "pygments",
+        "rich"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "mypy",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 63064346,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "ast-serialize",
+        "librt",
+        "mypy-extensions",
+        "pathspec",
+        "pip",
+        "typing-extensions",
+        "typing-extensions"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 0
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "pytest-asyncio",
+      "version": "1.3.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 95407,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "typing-extensions"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 2983341,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "markdown-it-py",
+        "pygments"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "ruff",
+      "version": "0.15.13",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 26416523,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 0
+    },
+    {
+      "name": "textual",
+      "version": "8.2.6",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 6692091,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "markdown-it-py",
+        "mdit-py-plugins",
+        "platformdirs",
+        "pygments",
+        "rich",
+        "typing-extensions"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "typer",
+      "version": "0.25.1",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 580049,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "annotated-doc",
+        "click",
+        "rich",
+        "shellingham"
+      ],
+      "depth": 0
+    },
+    {
+      "name": "anyio",
+      "version": "4.13.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 1257128,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "idna",
+        "typing-extensions"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 250623,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "click",
+      "version": "8.3.3",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 924534,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 694710,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "anyio",
+        "certifi",
+        "h11"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "idna",
+      "version": "3.15",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 629864,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "mypy",
+        "pytest",
+        "ruff"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 2983341,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "markdown-it-py",
+        "pygments"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "ast-serialize",
+      "version": "0.4.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 2661316,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "librt",
+      "version": "0.11.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 400671,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "mypy-extensions",
+      "version": "1.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 21791,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 325307,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "typing-extensions"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "pip",
+      "version": "26.0.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 11161419,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 551255,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "linkify-it-py",
+        "mdit-py-plugins",
+        "mdit-py-plugins",
+        "mdurl",
+        "pytest",
+        "pytest"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 551255,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "linkify-it-py",
+        "mdit-py-plugins",
+        "mdit-py-plugins",
+        "mdurl",
+        "pytest",
+        "pytest"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "markdown-it-py",
+        "pytest"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.9.6",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 261662,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 2983341,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "markdown-it-py",
+        "pygments"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.4",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 12578,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "click",
+      "version": "8.3.3",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 924534,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 2983341,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "markdown-it-py",
+        "pygments"
+      ],
+      "depth": 1
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 38854,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 1
+    },
+    {
+      "name": "idna",
+      "version": "3.15",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 629864,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "mypy",
+        "pytest",
+        "ruff"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "anyio",
+      "version": "4.13.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 1257128,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "idna",
+        "typing-extensions"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "certifi",
+      "version": "2026.4.22",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 250623,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 205214,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "mypy",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 63064346,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "ast-serialize",
+        "librt",
+        "mypy-extensions",
+        "pathspec",
+        "pip",
+        "typing-extensions",
+        "typing-extensions"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "ruff",
+      "version": "0.15.13",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 26416523,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 551255,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "linkify-it-py",
+        "mdit-py-plugins",
+        "mdit-py-plugins",
+        "mdurl",
+        "pytest",
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "linkify-it-py",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 136360,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "pytest",
+        "uc-micro-py"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 43432,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "linkify-it-py",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 136360,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "pytest",
+        "uc-micro-py"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 43432,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 551255,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "linkify-it-py",
+        "mdurl",
+        "pytest",
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 551255,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "linkify-it-py",
+        "mdit-py-plugins",
+        "mdit-py-plugins",
+        "mdurl",
+        "pytest",
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 551255,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "linkify-it-py",
+        "mdit-py-plugins",
+        "mdit-py-plugins",
+        "mdurl",
+        "pytest",
+        "pytest"
+      ],
+      "depth": 2
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 2
+    },
+    {
+      "name": "mypy",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 63064346,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "ast-serialize",
+        "librt",
+        "mypy-extensions",
+        "pathspec",
+        "pip",
+        "typing-extensions",
+        "typing-extensions"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "ruff",
+      "version": "0.15.13",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 26416523,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "idna",
+      "version": "3.15",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 629864,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "mypy",
+        "pytest",
+        "ruff"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "ast-serialize",
+      "version": "0.4.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 2661316,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "librt",
+      "version": "0.11.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 400671,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "mypy-extensions",
+      "version": "1.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 21791,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 325307,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "typing-extensions"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pip",
+      "version": "26.0.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 11161419,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "linkify-it-py",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 136360,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "pytest",
+        "uc-micro-py"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 43432,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 15045,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 15045,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "linkify-it-py",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 136360,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "pytest",
+        "uc-micro-py"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 43432,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "linkify-it-py",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 136360,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "pytest",
+        "uc-micro-py"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 43432,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "linkify-it-py",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 136360,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest",
+        "pytest",
+        "uc-micro-py"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdit-py-plugins",
+      "version": "0.6.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 372482,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 43432,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 3
+    },
+    {
+      "name": "ast-serialize",
+      "version": "0.4.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 2661316,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "librt",
+      "version": "0.11.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 400671,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "mypy-extensions",
+      "version": "1.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 21791,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 325307,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "typing-extensions"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pip",
+      "version": "26.0.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 11161419,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "mypy",
+      "version": "2.1.0",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 63064346,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "ast-serialize",
+        "librt",
+        "mypy-extensions",
+        "pathspec",
+        "pip",
+        "typing-extensions",
+        "typing-extensions"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "ruff",
+      "version": "0.15.13",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 26416523,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 15045,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 15045,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 15045,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "uc-micro-py",
+      "version": "2.0.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 15045,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "pytest"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 4
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "ast-serialize",
+      "version": "0.4.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 2661316,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "librt",
+      "version": "0.11.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 400671,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "mypy-extensions",
+      "version": "1.1.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 21791,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pathspec",
+      "version": "1.1.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 325307,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "typing-extensions"
+      ],
+      "depth": 5
+    },
+    {
+      "name": "pip",
+      "version": "26.0.1",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 11161419,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pytest",
+      "version": "9.0.3",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 3225774,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [
+        "iniconfig",
+        "packaging",
+        "pluggy",
+        "pygments"
+      ],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 5
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.15.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 353812,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 44248,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "latest_version": "",
+      "is_direct": true,
+      "size_bytes": 839315,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 151467,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    },
+    {
+      "name": "pygments",
+      "version": "2.20.0",
+      "latest_version": "",
+      "is_direct": false,
+      "size_bytes": 8885895,
+      "days_since_update": 0,
+      "vulnerabilities": [],
+      "dependencies": [],
+      "depth": 6
+    }
+  ],
+  "vulnerabilities": []
+}
